@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
             <div class="container-lg">
                 <a href="#home" class="navbar-brand fw-bold fs-4 text-danger">RAHUL</a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-div">
@@ -20,8 +20,8 @@
                 </button>
                 <div id="navbar-div" class="collapse navbar-collapse justify-content-end">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="" class="nav-link">Services</a></li>
                         <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
                         <li class="nav-item"><a href="" class="nav-link">Testimonials</a></li>
@@ -31,6 +31,27 @@
             </div>
         </nav>
     </header>
+
+    <section id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6">
+                    <img src="img/profile.png" alt="profile-img" class="rounded-circle mw-100">
+                </div>
+                <div class="col-md-6 order-md-first">
+                    <p class="text-muted mb-1 fs-5">Hello, I'm</p>
+                    <h1 class="text-danger fw-bolder">WEB DESIGNER</h1>
+                    <p class="fw-bold fs-3 mb-3">Rahul C</p>
+                    <p class="text-muted mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nihil
+                        assumenda
+                        corporis obcaecati
+                        maiores consequuntur.</p>
+                    <a href="#work" class="btn btn-danger">My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
